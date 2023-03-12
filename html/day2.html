@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../js/day2.js"></script>
+</head>
+<body>
+    <div style="background-color: cadetblue;">
+    <div>
+        练习1：声明变量保存输入的用户名和密码，如果用户名为"root"并且密码为"123abc",则打印true，否则打印false
+    </div>
+    <div>
+        请输入用户名和密码：
+    </div>
+    <div>
+        用户名：
+    </div>
+    <div>
+        <input id="user">
+    </div>
+    <div>
+        密码：
+    </div>
+    <div>
+        <input id="password">
+    </div>
+    <div>
+        <button onclick="clicks()">
+            保存
+        </button>
+    </div>
+    <div>
+        <p id="istrue">false</p>
+    </div>
+    </div>
+    <br>
+    <br>
+    <div style="background-color: chartreuse;">
+        <div>
+            练习2：声明变量分别保存语文，数学，总成绩其中总成绩为空；把语文和数学相加的和赋给总成绩，最后打印3个变量
+        </div>
+        <div>
+            语文成绩：
+        </div>
+        <div>
+            <input id="chinesegrade">
+        </div>
+        <div>
+            数学成绩：
+        </div>
+        <div>
+            <input id="mathgrade">
+        </div>
+        <div>
+            <button onclick="sumClick()">
+                统计
+            </button>
+        </div>
+        <div>
+        <div>
+            语文成绩：
+            <div id="chinesegrade_text">0</div>
+        </div>
+        <div>
+            数学成绩：
+            <div id="mathgrade_text">0</div>
+        </div>
+        <div>
+            总成绩：
+            <div id="sumgrade_text">0</div>
+        </div>
+        </div>
+        </div>
+</body>
+</html>
