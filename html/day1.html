@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/day1.css">
+</head>
+<body>
+    <nav>
+    <div class="header w bd_1">
+    <div class="headerleft">首页</div>
+    <div class="headerright">欢迎你！ 李强   【今天是2022年12月12日 星期一】</div>
+    </div>
+</nav>
+<hr>
+    <div class="bd bd_1">待办件提醒</div>
+<hr>
+    <div class="box">
+    <div class="box_1" style="background-color: blueviolet;">当日接件（0）</div>
+    <div class="box_1" style="background-color: brown;">待受理（6）</div>
+    <div class="box_1" style="background-color: cadetblue;">待现场核查（2）</div>
+    <div class="box_1" style="background-color: chartreuse;">待审批（4）</div>
+    </div>
+    <div class="box">
+    <div class="box_1" style="background-color: chocolate;">已退回（5）</div>
+    <div class="box_1" style="background-color: cornflowerblue;">待打证（1）</div>
+    <div class="box_1" style="background-color: darkcyan;">待归档（1）</div>
+    <div class="box_1" style="background-color: darksalmon;">待注销（0）</div>
+    </div>
+    </div>
+    <div class="bd bd_1">已办理查询</div>
+<hr>
+    <div class="box">
+    <div class="box_2"><div>小餐饮店名称：</div><input type="text" placeholder="请输入小餐饮店名称"></div>
+    <div class="box_2"><div>经营地址：</div><input type="text" placeholder="请输入经营地址"></div>
+    <div class="box_2"><div>受理日期：</div><input type="date"><div>--</div>
+    <input type="date"></div>
+    </div>
+    <div class="box">
+    <div class="box_2"><div >状态：</div><select><option>--全部--</option></select></div>
+    <div class="box_2"><div>申请类型：</div><select><option>--全部--</option></select></div>
+    <div class="box_2"><div>主体业态：</div><select><option>--全部--</option></select></div>
+    <button>查询</button>
+    </div>
+    <div class="box">
+    <table>
+        <thead>
+        <tr>
+            <th>序号</th>
+            <th>小餐饮店名称</th>
+            <th>主体业态</th>
+            <th>经营地址</th>
+            <th>经营者(负责人)</th>
+            <th>申请类型</th>
+            <th>受理时间</th>
+            <th>状态</th>
+            <th>操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>多汁牛肉干</td>
+            <td>小餐饮</td>
+            <td>吉林省长春市长春汽车经济技术开发区三生三世十里桃林</td>
+            <td>侯文科</td>
+            <td>新办</td>
+            <td>2022-12-08</td>
+            <td>待现场核查</td>
+            <td><a href="">查看</a></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>快手九道菜</td>
+            <td>小餐饮</td>
+            <td>吉林省长春市长春汽车经济技术开发区吉林省长春市人民大街5988号</td>
+            <td>李岩松</td>
+            <td>新办</td>
+            <td>2022-11-29</td>
+            <td>待归档</td>
+            <td><a href="">查看</a></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>十里桃林</td>
+            <td>小餐饮</td>
+            <td>吉林省长春市长春汽车经济技术开发区三生三世十里桃林</td>
+            <td>刘子博</td>
+            <td>新办</td>
+            <td>2022-12-08</td>
+            <td>待审批</td>
+            <td><a href="">查看</a></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>西村唐麻辣</td>
+            <td>小餐饮</td>
+            <td>吉林省长春市长春汽车经济技术开发区三生三世十里桃林</td>
+            <td>孙立建</td>
+            <td>新办</td>
+            <td>2022-12-08</td>
+            <td>待打证</td>
+            <td><a href="">查看</a></td>
+        </tr>
+        </tbody>
+    </table>
+    </div>
+</body>
+</html>

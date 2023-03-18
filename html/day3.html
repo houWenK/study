@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/day3.css">
+</head>
+<body>
+<div style="background-color: burlywood;">
+    <div>
+        <p>🎩练习一：验证密码</p>
+        <p>①密码长度必须是6位的任意字符</p>
+        <p>②当鼠标离开文本输入框的时候就会触发的事件，所以我们需要在密码的input标签中添加一个离焦事件onblur,用来验证密码是否合法。</p>
+    </div>
+    <div style="height: 50px;">
+        <div>输入密码：</div>
+        <input id="password" onblur="onblurPasswordAlter()">
+    </div>
+</div>
+<div style="background-color: cadetblue;">
+    <div>
+        <div class="clickbutton" onclick="clickbutton()">点击换色</div>
+        <p>🎩练习二:表格隔行换色，能够使用js实现表格隔行换色功能。</p>
+        <table>
+            <thead>
+            <tr>
+                <th>序号</th>
+                <th>名称</th>
+                <th>状态</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="tr_1">
+                <td>1</td>
+                <td>多汁牛肉干</td>
+                <td>小餐饮</td>
+            </tr>
+            <tr class="tr_2">
+                <td>2</td>
+                <td>快手九道菜</td>
+                <td>小餐饮</td>
+            </tr>
+            <tr class="tr_1">
+                <td>3</td>
+                <td>十里桃林</td>
+                <td>小餐饮</td>
+            </tr>
+            <tr class="tr_2">
+                <td>4</td>
+                <td>西村唐麻辣</td>
+                <td>小餐饮</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div> 
+<div style="background-color: darkgrey;">
+    <div>
+        <p>🎩练习三:日期</p>
+        <p>①使用Date对象，在页面回显当前年月日时分秒星期</p>
+        <p>②拼接样式:今天是2022年12月14日13:12:12 星期三(动态数据)</p>
+    </div>
+    <div style="height: 66px;">
+        <button onclick="getDate()">获取当前时间</button>
+        <p><div id="getDate"></div></p>
+    </div>
+</div>
+<script src="../js/day3.js">
+</script>
+</body>
+</html>

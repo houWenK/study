@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/day4.css">
+</head>
+<body>
+    <div style="background-color: bisque;">
+    <div>1、练习一:删除列表元素中最后第三个li元素。</div>
+    <div class="marg">
+        <button id="bt1">点击</button>
+        <ul>
+            <li>元素01</li>
+            <li>元素02</li>
+            <li>元素03</li>
+            <li>元素04</li>
+        </ul>
+    </div>
+    </div>
+    <div style="background-color: cadetblue;">
+    <div>2、练习二:使用 jquery 修改第二个p元素的背景色为"orange"。</div>
+    <div class="marg">
+        <button id="bt2">点击</button>
+        <div id="test1">
+        <P>我是第一个p元素</P>
+        <P id="p1">我是第二个p元素</P>
+        <P>我是第三个p元素</P>
+        </div>
+    </div>
+    <div style="background-color: darkgray;">
+    <div>3、练习三:鼠标移到菜单上时改变菜单样式，鼠标移出菜单时恢复为原来的样式 。</div>
+    <div class="marg">
+        <p id="p2" style="background-color: hotpink;">将鼠标放在此处</p>
+    </div>
+    </div>
+    <div style="background-color: gold;">
+    <div>4、练习四:计算给定数组 arr 中所有元素的总和。</div>
+    <div style="height: 99px;">
+        <div>给定数组arr为[1,2,3,4]</div>
+        <button id="bt3" class="marg">点击</button>
+        <p><div id="listresult"></div></p>
+    </div>
+    </div>
+</body>
+<script src="../js/common/jQuery.js"></script>
+<script src="../js/day4.js"></script>
+<script>
+    $(function(){
+        deletelist();
+        changecolor();
+        focusclick();
+        click1();
+    })
+</script>
+</html>
